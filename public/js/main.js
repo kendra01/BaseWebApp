@@ -1,11 +1,10 @@
 
-function myFunction() {
-  // use jQuery ($ is shorthand) to find the div on the page and then change the html
-  // jQuery can do a lot of crazy stuff so make sure to google around to find out more
+function myFunction() 
+document.getElementById("details")
+{
+<h2> Castro Fountain </h2>
+<p>Step back in time and enjoy a classic ice cream sundae at <a href="https://www.thecastrofountain.com/">The Castro Fountain</a>, in the heart of the Castro.
+  <img src="https://static.urbandaddy.com/uploads/assets/image/articles/standard/babd41633979f77450020d896e14de12.jpg"/>
 
-  $("#demo").html("NEWWW PARAGRAPH #javascript #fire");
-
-  // 'img-circle' is a bootstrap thing! Check out more here: http://getbootstrap.com/css/
-  $(".doge-image").append(`<img class="img-circle" src="/images/wowdoge.jpeg" />`);
 }
 
